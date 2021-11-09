@@ -8,3 +8,11 @@ prediction=st.beta_container()
 
 with header:
     st.title('Skin Disease Classification')
+with dataset:
+    st.title('Skin Disease Image Classification sample')
+with features:
+    st.title('lesion_id,image_id,type,age,sex,localization')
+with modeltraining:
+    st.title('')
+with predicition:
+    st.title('')
