@@ -17,3 +17,5 @@ with modeltraining:
     st.title('CNN Model Architecture')
 with prediction:
     st.title('Predicting the Skin Disease Type')
+    image = st.file_uploader("Upload your skin disease portion photo that you want to precit", type=['jpg', 'png'])
+
