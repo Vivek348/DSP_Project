@@ -12,6 +12,7 @@ with dataset:
     st.title('Skin Disease Image Classification sample')
 with features:
     st.title('lesion_id,image_id,type,age,sex,localization')
+    age = st.number_input("Age", min_value=18, max_value=100, step=1)
 with modeltraining:
     st.title('CNN Model Architecture')
 with prediction:
