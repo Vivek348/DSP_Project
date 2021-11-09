@@ -1,10 +1,10 @@
 import streamlit as st
 
-header=st.beta_container()
-dataset=st.beta_container()
-features=st.beta_container()
-modeltraining=st.beta_container()
-prediction=st.beta_container()
+header=st.container()
+dataset=st.container()
+features=st.container()
+modeltraining=st.container()
+prediction=st.container()
 
 with header:
     st.title('Skin Disease Classification')
