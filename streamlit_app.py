@@ -24,3 +24,6 @@ submit = st.button("Submit")
 if submit:
     st.write("You submitted the form")
     st.write("Accuracy of the submitted Image")
+click = st.sidebar.button('Click me!')
+if click:
+    st.sidebar.write("You clicked the button")
