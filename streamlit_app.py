@@ -17,5 +17,10 @@ with modeltraining:
     st.title('CNN Model Architecture')
 with prediction:
     st.title('Predicting the Skin Disease Type')
-    image = st.file_uploader("Upload your skin disease portion photo that you want to precit", type=['jpg', 'png'])
+    image = st.file_uploader("Upload your skin disease portion photo that you want to predit", type=['jpg', 'png'])
 
+submit = st.button("Submit")
+
+if submit:
+    st.write("You submitted the form")
+    st.write("Accuracy of the submitted Image")
