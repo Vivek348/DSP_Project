@@ -14,5 +14,5 @@ with features:
     st.title('lesion_id,image_id,type,age,sex,localization')
 with modeltraining:
     st.title('CNN Model Architecture')
-with predicition:
+with prediction:
     st.title('Predicting the Skin Disease Type')
